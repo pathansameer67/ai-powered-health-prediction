@@ -1,0 +1,15 @@
+[Page 1] Ministry of Health and Family Welfare, Government of India
+STANDARD TREATMENT WORKFLOW: MANAGEMENT OF HYPERTENSION IN ADULTS
+Section 1: Blood Pressure Classification for Indian Adults
+- Normal Blood Pressure: Systolic < 120 mmHg and Diastolic < 80 mmHg.
+- Elevated Blood Pressure: Systolic 120-129 mmHg and Diastolic < 80 mmHg.
+- Stage 1 Hypertension: Systolic 130-139 mmHg or Diastolic 80-89 mmHg.
+- Stage 2 Hypertension: Systolic >= 140 mmHg or Diastolic >= 90 mmHg.
+- Hypertensive Crisis: Systolic > 180 mmHg and/or Diastolic > 120 mmHg. Requires immediate clinical attention. If accompanied by acute chest pain, shortness of breath, back pain, numbness/weakness, or difficulty speaking, this is a Hypertensive Emergency requiring immediate hospital emergency transfer.
+
+[Page 2] Section 2: Non-Pharmacological Management Strategies (Lifestyle Modification)
+1. Dietary Sodium Restriction: Limit daily sodium chloride (salt) intake to less than 5 grams per day (equivalent to approximately one level teaspoon).
+2. Dietary Approaches to Stop Hypertension (DASH Diet): Rich in fruits, vegetables, potassium-rich legumes, nuts, low-fat dairy, and whole grains.
+3. Weight Reduction: Maintain body mass index (BMI) between 18.5 and 22.9 kg/m2 (Asian Indian cutoff) and waist circumference < 90 cm for men and < 80 cm for women.
+4. Physical Activity: Brisk walking or yoga for 30 to 45 minutes daily.
+5. Cessation of Tobacco and Alcohol: Complete cessation of bidi, cigarette, and smokeless tobacco products (khaini, gutkha).

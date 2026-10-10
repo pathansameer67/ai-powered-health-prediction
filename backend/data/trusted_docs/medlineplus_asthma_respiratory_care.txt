@@ -1,0 +1,11 @@
+[Page 1] MedlinePlus Health Information
+ASTHMA: PATHOPHYSIOLOGY, TRIGGER AVOIDANCE, AND ACTION PLAN
+Section 1: Overview and Symptoms
+Asthma is a chronic inflammatory disorder of the airways characterized by recurrent episodes of wheezing, dyspnea (breathlessness), chest tightness, and coughing, particularly at night or in the early morning.
+Common environmental triggers include house dust mites, animal dander, pollen, mold, cold air, exercise, respiratory viral infections, and tobacco smoke.
+
+[Page 2] Section 2: The Asthma Action Plan Zones
+Every patient with asthma should maintain a personalized Asthma Action Plan structured in three colored zones:
+- Green Zone (Doing Well): No cough or wheeze, breathing is easy, can work and play normally. Peak Flow >= 80% of personal best. Continue daily controller medications as prescribed.
+- Yellow Zone (Caution / Asthma Is Getting Worse): Coughing, mild wheezing, slight breathlessness, waking at night due to asthma. Peak Flow 50% to 79% of personal best. Use prescribed quick-relief rescue inhaler (such as short-acting beta-agonist, e.g., Salbutamol/Albuterol) and follow physician-prescribed dosage step-up.
+- Red Zone (Medical Alert / Severe Flare-up): Breathing is very fast and hard, nose opens wide to breathe, ribs show when breathing (retractions), trouble walking or talking. Peak Flow < 50% of personal best. Take quick-relief medicine immediately and call local emergency services or seek immediate hospital care.

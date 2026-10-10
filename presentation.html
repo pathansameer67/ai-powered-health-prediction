@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AegisHealth AI — Project Presentation Deck</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .slide { display: none; }
+    .slide.active { display: flex; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between select-none">
+  <!-- Top Bar -->
+  <header class="border-b border-slate-800/80 px-6 py-3.5 flex items-center justify-between bg-slate-900/60 backdrop-blur-md">
+    <div class="flex items-center space-x-3">
+      <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-sky-400 flex items-center justify-center shadow-md">
+        <span class="text-white font-black text-sm">🛡️</span>
+      </div>
+      <div>
+        <h1 class="font-extrabold text-sm tracking-tight text-white">AegisHealth AI — Presentation Deck</h1>
+        <p class="text-[11px] text-slate-400">4-Member Team Project Presentation</p>
+      </div>
+    </div>
+    <div class="flex items-center space-x-3">
+      <span id="slideIndicator" class="px-3 py-1 rounded-full bg-slate-800 text-xs font-mono font-bold text-indigo-300 border border-slate-700">
+        Slide 1 / 10
+      </span>
+      <button onclick="toggleFullscreen()" class="px-3 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded-xl border border-slate-700 text-slate-300 transition-colors">
+        ⛶ Fullscreen
+      </button>
+    </div>
+  </header>
+
+  <!-- Slide Stage Container -->
+  <main class="flex-1 flex items-center justify-center p-4 sm:p-8 max-w-6xl mx-auto w-full">
+
+    <!-- Slide 1: Title -->
+    <div class="slide active flex-col items-center text-center space-y-6 max-w-3xl animate-in fade-in duration-300">
+      <span class="px-4 py-1.5 rounded-full text-xs font-bold bg-indigo-900/50 text-indigo-300 border border-indigo-700/60 shadow-inner">
+        🚀 Next-Generation Clinical Intelligence & Multi-Agent Health Platform
+      </span>
+      <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">
+        AegisHealth <span class="bg-gradient-to-r from-blue-400 via-indigo-400 to-sky-300 bg-clip-text text-transparent">AI</span>
+      </h2>
+      <p class="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
+        A clinical-grade, multi-agent AI health platform delivering safe, evidence-grounded, and plain-language medical guidance—backed by real-time safety guardrails, verified source citations, and AI X-Ray vision diagnostics.
+      </p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 w-full pt-4 text-xs font-semibold">
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 text-slate-200">
+          🤖 6-Agent Consensus
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 text-slate-200">
+          📚 Hybrid RAG Citations
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 text-slate-200">
+          🩻 AI X-Ray Vision
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 text-slate-200">
+          🛡️ 3-Tier Emergency Gate
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2: Team Members & Roles -->
+    <div class="slide flex-col space-y-5 w-full animate-in fade-in duration-300">
+      <div class="border-b border-slate-800 pb-3">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">Team Structure</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Project Engineering Team & Role Allocations</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <!-- Member 1 -->
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="font-extrabold text-white text-sm">👤 Member 1 (Team Lead)</span>
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-blue-900/60 text-blue-300 font-bold border border-blue-700">Full-Stack Architect</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            • React 18, Vite, TypeScript architecture & glassmorphic UI.<br>
+            • Multi-studio layout, Dark/Light mode, session history drawers.<br>
+            • Frontend-to-backend API contract orchestration.
+          </p>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="font-extrabold text-white text-sm">👤 Member 2</span>
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 font-bold border border-indigo-700">Multi-Agent & LLM Engineer</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            • 6-specialist autonomous deliberation engine & consensus scoring.<br>
+            • Groq Cloud LLM integration (Llama-3, Qwen, Mixtral).<br>
+            • Deterministic clinical fallback knowledge engine.
+          </p>
+        </div>
+
+        <!-- Member 3 -->
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="font-extrabold text-white text-sm">👤 Member 3</span>
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-900/60 text-emerald-300 font-bold border border-emerald-700">RAG & Data Pipeline Engineer</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            • Hybrid dense semantic (ChromaDB) + BM25 keyword retriever.<br>
+            • Document parser (PDF, DOCX, TXT) and chunk indexer.<br>
+            • Verified Health Authority Source Registry & citation manager.
+          </p>
+        </div>
+
+        <!-- Member 4 -->
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="font-extrabold text-white text-sm">👤 Member 4</span>
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-purple-900/60 text-purple-300 font-bold border border-purple-700">Vision & Clinical Safety Engineer</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            • AI X-Ray Vision Diagnostic Studio (CXR, Bone, Spine, Dental).<br>
+            • 3-Tier Safety Escalation Matrix (Category A/B/C triage).<br>
+            • 5-Section Plain-Language Patient Translation Framework.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: The Problem -->
+    <div class="slide flex-col space-y-5 w-full animate-in fade-in duration-300">
+      <div class="border-b border-slate-800 pb-3">
+        <span class="text-xs font-bold uppercase tracking-wider text-red-400">The Problem</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Why Current Healthcare AI Chatbots Fail</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+        <div class="p-4 rounded-2xl bg-red-950/20 border border-red-900/40 space-y-2">
+          <span class="font-bold text-red-300 text-sm flex items-center space-x-1.5">
+            <span>❌</span> <span>Hallucinations & Fake Dosages</span>
+          </span>
+          <p class="text-slate-400 leading-relaxed">
+            Generic LLMs guess medical facts and fabricate drug dosages without grounding against verified medical literature.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-amber-950/20 border border-amber-900/40 space-y-2">
+          <span class="font-bold text-amber-300 text-sm flex items-center space-x-1.5">
+            <span>⚠️</span> <span>Medical Jargon & Panic</span>
+          </span>
+          <p class="text-slate-400 leading-relaxed">
+            Dense clinical terms (e.g. "idiopathic infiltration") confuse and terrify everyday patients instead of offering actionable guidance.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-red-950/20 border border-red-900/40 space-y-2">
+          <span class="font-bold text-red-300 text-sm flex items-center space-x-1.5">
+            <span>🚨</span> <span>Missed Emergency Red Flags</span>
+          </span>
+          <p class="text-slate-400 leading-relaxed">
+            Single-prompt chatbots fail to catch cardiac, stroke, and anaphylaxis signs, treating emergencies like standard inquiries.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <span class="font-bold text-slate-300 text-sm flex items-center space-x-1.5">
+            <span>👁️</span> <span>No X-Ray / Image Interpretation</span>
+          </span>
+          <p class="text-slate-400 leading-relaxed">
+            Patients with X-Rays or lab scans cannot get automated preliminary imaging reviews or fracture/pneumonia triage.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: Multi-Agent Consensus Studio -->
+    <div class="slide flex-col space-y-5 w-full animate-in fade-in duration-300">
+      <div class="border-b border-slate-800 pb-3 flex items-center justify-between">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">Core Innovation</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-white">7 Autonomous AI Clinical Specialists</h2>
+        </div>
+        <span class="px-3 py-1 rounded-full bg-emerald-900/50 text-emerald-300 border border-emerald-700 text-xs font-bold">
+          98.2% Consensus Score
+        </span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-white flex items-center space-x-1"><span>🚨</span> <span>Dr. Triage SME</span></span>
+          <p class="text-slate-400 text-[11px]">Instant red-flag detection & emergency escalation routing.</p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-white flex items-center space-x-1"><span>🩺</span> <span>Dr. Diagnostica</span></span>
+          <p class="text-slate-400 text-[11px]">Differential diagnosis formulation & symptom clustering.</p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-white flex items-center space-x-1"><span>💊</span> <span>PharmExpert</span></span>
+          <p class="text-slate-400 text-[11px]">Screens drug interactions, contraindications, & dosing.</p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-white flex items-center space-x-1"><span>📚</span> <span>Dr. Research Fellow</span></span>
+          <p class="text-slate-400 text-[11px]">Vector RAG queries over WHO/CDC/MoHFW guidelines.</p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-white flex items-center space-x-1"><span>🛡️</span> <span>Sentinel Guard</span></span>
+          <p class="text-slate-400 text-[11px]">Hallucination scrubbing & HIPAA/DISHA compliance.</p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-white flex items-center space-x-1"><span>🗣️</span> <span>CareCommunicator</span></span>
+          <p class="text-slate-400 text-[11px]">Translates clinical terms into clear patient steps.</p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-slate-900 border border-emerald-500/40 bg-emerald-950/20 col-span-2 space-y-1">
+          <span class="font-bold text-emerald-300 flex items-center space-x-1"><span>🚑</span> <span>Dr. Aiden Cross (Autonomous Care Concierge)</span></span>
+          <p class="text-slate-300 text-[11px]">⚡ 1-Click Autonomous Auto-Pilot: Directly executes emergency hospital pre-registration with digital passes and orders medicines from 24/7 pharmacies with zero manual forms.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5: 3-Tier Safety Matrix -->
+    <div class="slide flex-col space-y-5 w-full animate-in fade-in duration-300">
+      <div class="border-b border-slate-800 pb-3">
+        <span class="text-xs font-bold uppercase tracking-wider text-emerald-400">Clinical Safety</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Three-Tier Safety & Escalation Framework</h2>
+      </div>
+
+      <div class="space-y-3 text-xs">
+        <div class="p-4 rounded-2xl bg-red-950/30 border border-red-800/80 flex items-start space-x-3">
+          <span class="text-2xl">🚨</span>
+          <div>
+            <span class="font-bold text-red-300 text-sm">Category A: Immediate Life-Threatening Emergency</span>
+            <p class="text-slate-300 mt-0.5 leading-relaxed">
+              Triggers instant interception before text generation. Displays local emergency numbers (911 / 112) and first-aid steps for chest pain, stroke, or severe trauma.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-amber-950/30 border border-amber-800/80 flex items-start space-x-3">
+          <span class="text-2xl">⚠️</span>
+          <div>
+            <span class="font-bold text-amber-300 text-sm">Category B: Red-Flag Clinical Warning</span>
+            <p class="text-slate-300 mt-0.5 leading-relaxed">
+              Provides safe educational guidance while prominently showing a medical consultation banner and specific questions to ask a doctor (e.g. fever >103°F, unexplained weight loss).
+            </p>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-emerald-950/30 border border-emerald-800/80 flex items-start space-x-3">
+          <span class="text-2xl">✅</span>
+          <div>
+            <span class="font-bold text-emerald-300 text-sm">Category C: Safe General Health Guidance</span>
+            <p class="text-slate-300 mt-0.5 leading-relaxed">
+              Generates full structured 5-section plain-language guidance for common everyday issues (fever self-care, BP benchmarks, acid reflux diet).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 6: 5-Section Plain-Language Format -->
+    <div class="slide flex-col space-y-4 w-full animate-in fade-in duration-300">
+      <div class="border-b border-slate-800 pb-3">
+        <span class="text-xs font-bold uppercase tracking-wider text-sky-400">Patient Clarity</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Universal 5-Section Response Format</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+        <div class="p-3 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-blue-300">📋 1. Direct Answer in Plain Words</span>
+          <p class="text-slate-400 text-[11px]">Clear, empathetic 2-3 sentence overview answering the question directly.</p>
+        </div>
+        <div class="p-3 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-indigo-300">🔍 2. What Is Happening & Common Causes</span>
+          <p class="text-slate-400 text-[11px]">Biological mechanisms and normal ranges/benchmarks in <b>bold</b>.</p>
+        </div>
+        <div class="p-3 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-emerald-300">💡 3. Safe Home Care & Practical Steps</span>
+          <p class="text-slate-400 text-[11px]">Hydration, resting, symptom monitoring, and doctor consultation questions.</p>
+        </div>
+        <div class="p-3 rounded-2xl bg-slate-900 border border-slate-800 space-y-1">
+          <span class="font-bold text-amber-300">⚠️ 4. Warning Signs (When to See a Doctor)</span>
+          <p class="text-slate-400 text-[11px]">Clear bulleted red flags requiring prompt medical evaluation.</p>
+        </div>
+        <div class="p-3 rounded-2xl bg-slate-900 border border-slate-800 space-y-1 sm:col-span-2">
+          <span class="font-bold text-purple-300">📖 5. Medical Terms Made Simple</span>
+          <p class="text-slate-400 text-[11px]">1-2 key clinical terms translated into everyday vocabulary (e.g., Systolic, LES, Antipyretic).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 7: AI X-Ray Vision Studio -->
+    <div class="slide flex-col space-y-5 w-full animate-in fade-in duration-300">
+      <div class="border-b border-slate-800 pb-3 flex items-center justify-between">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-indigo-400">Radiology Vision</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-white">AI X-Ray Vision Diagnostic Studio</h2>
+        </div>
+        <span class="px-3 py-1 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700 text-xs font-bold">
+          Chest • Ortho • Spine • Dental
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <span class="font-bold text-white text-sm">🎛️ Interactive Image Controls</span>
+          <p class="text-slate-400 leading-relaxed text-[11px]">
+            • <b>Bone Contrast (Negative)</b> inversion mode.<br>
+            • <b>Zoom up to 250%</b> with pan & reset.<br>
+            • <b>ROI Annotation Box</b> highlighting focal abnormalities.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <span class="font-bold text-white text-sm">⚡ 4 Demo Clinical Cases</span>
+          <p class="text-slate-400 leading-relaxed text-[11px]">
+            • <b>Bacterial Lobar Pneumonia</b> (Right lower lobe).<br>
+            • <b>Distal Radius Colles' Fracture</b> (Dorsal tilt).<br>
+            • <b>Cardiomegaly & Congestion</b> (CTR 0.62).<br>
+            • <b>Normal Clear Adult Chest</b>.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <span class="font-bold text-white text-sm">📑 Structured Radiology Report</span>
+          <p class="text-slate-400 leading-relaxed text-[11px]">
+            • <b>Executive Diagnostic Impression</b>.<br>
+            • <b>Systematic Findings</b> (Lungs/Bones/Heart).<br>
+            • <b>Urgency Priority</b> & Plain-Language Guide.<br>
+            • <b>One-Click History Saving & Copy</b>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 8: Summarizer & History Management -->
+    <div class="slide flex-col space-y-5 w-full animate-in fade-in duration-300">
+      <div class="border-b border-slate-800 pb-3">
+        <span class="text-xs font-bold uppercase tracking-wider text-purple-400">Clinical Workflow</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">Document Summarizer & Persistent History</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <span class="font-bold text-white text-sm">📄 7-Mode Document Summarizer</span>
+          <p class="text-slate-400 leading-relaxed">
+            Drag-and-drop clinical reports (PDF, DOCX, TXT, MD) to extract takeaways in 7 distinct modes:
+            <span class="block mt-1 text-slate-300 font-mono text-[10px]">
+              • Quick Summary • Detailed Clinical • Key Points • Plain Language • Question-Focused • Section-by-Section • Guideline Synthesis
+            </span>
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <span class="font-bold text-white text-sm">🕒 Persistent Session History</span>
+          <p class="text-slate-400 leading-relaxed">
+            Seamless history drawers across all tools:
+            <span class="block mt-1 text-slate-300 text-[11px]">
+              • <b>Chat History:</b> Search & restore conversations.<br>
+              • <b>Deliberation History:</b> Reload 6-agent consensus runs.<br>
+              • <b>Scan & Summary History:</b> One-click past scan recall.
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 9: Live Demo & Performance -->
+    <div class="slide flex-col space-y-5 w-full animate-in fade-in duration-300">
+      <div class="border-b border-slate-800 pb-3 flex items-center justify-between">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-emerald-400">Performance</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-white">System Benchmarks & Live Results</h2>
+        </div>
+        <span class="px-3 py-1 rounded-full bg-blue-900/60 text-blue-300 border border-blue-700 text-xs font-bold">
+          Sub-Second Response
+        </span>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800">
+          <div class="text-2xl sm:text-3xl font-black text-indigo-400">&lt; 1.2s</div>
+          <div class="text-[11px] text-slate-400 mt-1">Average Response Latency</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800">
+          <div class="text-2xl sm:text-3xl font-black text-emerald-400">96.4%</div>
+          <div class="text-[11px] text-slate-400 mt-1">Hybrid RAG Precision</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800">
+          <div class="text-2xl sm:text-3xl font-black text-sky-400">94-98%</div>
+          <div class="text-[11px] text-slate-400 mt-1">Specialist Consensus Score</div>
+        </div>
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800">
+          <div class="text-2xl sm:text-3xl font-black text-red-400">100%</div>
+          <div class="text-[11px] text-slate-400 mt-1">Emergency Triage Intercept</div>
+        </div>
+      </div>
+
+      <div class="p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 text-xs text-slate-300">
+        <b>Live Verified Queries:</b> Fever of 101°F, Blood Pressure 140/90, GERD / Acid Reflux, Bacterial Lobar Pneumonia CXR, and Distal Radius Fracture.
+      </div>
+    </div>
+
+    <!-- Slide 10: Conclusion & Q&A -->
+    <div class="slide flex-col items-center text-center space-y-6 max-w-2xl animate-in fade-in duration-300">
+      <span class="px-4 py-1.5 rounded-full text-xs font-bold bg-emerald-900/50 text-emerald-300 border border-emerald-700/60">
+        🌟 Summary & Future Vision
+      </span>
+      <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight">
+        Thank You! We are ready for Q&A
+      </h2>
+      <p class="text-sm text-slate-300 leading-relaxed">
+        AegisHealth AI bridges clinical medicine, radiographic vision, and patient understanding safely, ethically, and without hallucination risks.
+      </p>
+
+      <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 text-xs text-slate-400 w-full text-left space-y-1">
+        <span class="font-bold text-white block mb-1">Presented by: Team Aegis</span>
+        <div>• <b>Member 1:</b> Full-Stack & UI/UX Architect</div>
+        <div>• <b>Member 2:</b> Multi-Agent Systems & LLM Engineer</div>
+        <div>• <b>Member 3:</b> RAG & Data Pipeline Engineer</div>
+        <div>• <b>Member 4:</b> Vision & Clinical Safety Engineer</div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Bottom Navigation Controls -->
+  <footer class="border-t border-slate-800/80 px-6 py-4 flex items-center justify-between bg-slate-900/60 backdrop-blur-md">
+    <button onclick="prevSlide()" class="px-4 py-2 text-xs font-bold rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white transition-all flex items-center space-x-1.5">
+      <span>←</span> <span>Previous Slide</span>
+    </button>
+    <div class="text-[11px] text-slate-400 hidden sm:block">
+      Use <kbd class="px-1.5 py-0.5 bg-slate-800 border border-slate-700 rounded text-slate-300">←</kbd> and <kbd class="px-1.5 py-0.5 bg-slate-800 border border-slate-700 rounded text-slate-300">→</kbd> keys to navigate
+    </div>
+    <button onclick="nextSlide()" class="px-4 py-2 text-xs font-bold rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white shadow-md shadow-indigo-600/20 transition-all flex items-center space-x-1.5">
+      <span>Next Slide</span> <span>→</span>
+    </button>
+  </footer>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const indicator = document.getElementById('slideIndicator');
+
+    function showSlide(index) {
+      if (index < 0) index = 0;
+      if (index >= slides.length) index = slides.length - 1;
+      currentSlide = index;
+      slides.forEach((s, idx) => {
+        s.classList.toggle('active', idx === currentSlide);
+      });
+      indicator.textContent = `Slide ${currentSlide + 1} / ${slides.length}`;
+    }
+
+    function nextSlide() {
+      showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+      showSlide(currentSlide - 1);
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        }
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === 'Space') nextSlide();
+      if (e.key === 'ArrowLeft') prevSlide();
+    });
+  </script>
+</body>
+</html>

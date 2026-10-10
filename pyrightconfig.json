@@ -1,0 +1,20 @@
+{
+  "include": [
+    "backend",
+    "scripts"
+  ],
+  "extraPaths": [
+    "./backend",
+    "./"
+  ],
+  "executionEnvironments": [
+    {
+      "root": "backend",
+      "extraPaths": ["."]
+    },
+    {
+      "root": "scripts",
+      "extraPaths": ["../backend", ".."]
+    }
+  ]
+}

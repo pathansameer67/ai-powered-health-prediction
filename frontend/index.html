@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><path d='M19 14v4h-4v2h4v4h2v-4h4v-2h-4v-4h-2M10 2a8 8 0 0 1 8 8c0 1.57-.46 3.03-1.24 4.26L15.3 12.8A5.96 5.96 0 0 0 16 10a6 6 0 1 0-6 6c1.03 0 1.98-.26 2.8-.7l1.46 1.46C13.03 17.54 11.57 18 10 18a8 8 0 1 1 0-16M11 6H9v3H6v2h3v3h2v-3h3V9h-3V6Z'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Healthcare Information Assistant | Clinical RAG & Safety System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        var saved = localStorage.getItem('healthcare_app_theme');
+        if (saved === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="font-['Plus_Jakarta_Sans',sans-serif] antialiased selection:bg-blue-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
